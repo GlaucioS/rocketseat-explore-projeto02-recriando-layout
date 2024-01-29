@@ -2,10 +2,74 @@ body{
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
+    color:#FFF;
+    background-color: #2F2E41;
+}
+#page{
+    margin: auto;
+    width: 1083px;
+    text-align: center;
 }
 main p{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav span{
+    font-weight: bold;
+    font-size: 24px;
+}
+nav img{
+    width: 10px;
+    margin: 0px 2px 0px 2px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav ul li{
+    font-weight: lighter;
+    font-size: 14px;
+    list-style: none;
+}
+a{
+    color:#FFF;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bold;
+}
+
+main{      
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+main h1{
+    font-size: 36px;
+}
+main h1 span{
+    color: #00BFA6;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    
+}
+main p{
+    font-size: 16px;
+    font-weight: lighter;
+}
+p span{    
+    font-weight: bold;
+}
+.green{
+    color: #00BFA6;
 }
