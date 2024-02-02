@@ -26,7 +26,7 @@ nav span{
     font-size: 24px;
 }
 nav img{
-    width: 10px;
+    width: 14px;
     margin: 0px 2px 0px 2px;
 }
 nav ul{
@@ -66,6 +66,7 @@ main section{
 main p{
     font-size: 16px;
     font-weight: lighter;
+    color: #C2C2C2;
 }
 p span{    
     font-weight: bold;
@@ -82,7 +83,8 @@ footer{
     border: 1px solid #00BFA6; 
 }
 footer p{
-    padding: 20px;;
+    padding: 20px;
+    color: #C2C2C2;
 }
 .padlock-footer{
     position: fixed;
