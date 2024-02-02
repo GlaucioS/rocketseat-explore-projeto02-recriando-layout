@@ -73,3 +73,20 @@ p span{
 .green{
     color: #00BFA6;
 }
+footer{
+    width: 568px;
+    margin: auto;
+    padding-top: 200px;
+}
+.line{
+    border: 1px solid #00BFA6; 
+}
+footer p{
+    padding: 20px;;
+}
+.padlock-footer{
+    position: fixed;
+    left: 0px;
+    bottom: 10px;
+    padding: 20px;
+}
